@@ -1,7 +1,11 @@
+/* tharun */
+
 body {
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 10px;
+    background-color: #82929bd6;
+    
 }
 
 header, footer {
@@ -33,9 +37,12 @@ header:hover{
 .container {
     border: 2px solid black;
     display: flex;
-    margin: 25px 5px;
+    margin: 50px 5px;
     padding: 20px;
-    justify-content: flex-start;
+    width: auto;
+    height: 100%;
+    
+    justify-content: space-around;
     flex-wrap: wrap;
     background: #bbb;
     border-radius: 20px;
@@ -44,15 +51,30 @@ header:hover{
     box-shadow: 10px 10px 100px rgb(8, 0, 0);
     background-color: #fff;
 }
+.child{
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    justify-items: center;
+    color: #0e0e0e;
+    text-shadow: 5px 5px 100px black;
+}
+.child:hover{
+    color: #FF0000;
+    box-shadow: 5px 5px 100px black;
+    
+}
 
 .column {
-    display: flex;
+    display: block;
     padding: 10px;
     margin: 10px;
-  
+    height: 50%;
     border: 1px solid #0f0f0f;
     border-radius: 16px;
-    background: #0e0e0e;
+    background: #323131;
+    color: #f5f4f5d6;
     box-sizing: border-box;
    
 }
